@@ -1,0 +1,12 @@
+src/.vs/Raspberry/v17/.suo
+src/obj/project.assets.json
+src/obj/project.nuget.cache
+src/obj/Raspberry.csproj.nuget.dgspec.json
+src/obj/Raspberry.csproj.nuget.g.props
+src/obj/Raspberry.csproj.nuget.g.targets
+src/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+src/obj/Debug/net6.0/Raspberry.AssemblyInfo.cs
+src/obj/Debug/net6.0/Raspberry.AssemblyInfoInputs.cache
+src/obj/Debug/net6.0/Raspberry.assets.cache
+src/obj/Debug/net6.0/Raspberry.csproj.AssemblyReference.cache
+src/obj/Debug/net6.0/Raspberry.GeneratedMSBuildEditorConfig.editorconfig

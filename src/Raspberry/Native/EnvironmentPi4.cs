@@ -2,8 +2,6 @@
 
 public sealed class EnvironmentPi4 : EnvironmentBase
 {
-    public static EnvironmentPi4 Instance => new EnvironmentPi4();
-
     public override string GPIO_MEM => @"/dev/gpiomem";
     public override string GPIO_FILE_PATH => @"/sys/class/gpio";
     public override uint BCM_PERI_BASE => 0xFE000000;

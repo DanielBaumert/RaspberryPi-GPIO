@@ -27,3 +27,5 @@ src/obj/Release/net6.0/Raspberry.GeneratedMSBuildEditorConfig.editorconfig
 src/obj/Release/net6.0/Raspberry.pdb
 src/obj/Release/net6.0/ref/Raspberry.dll
 src/obj/Release/net6.0/refint/Raspberry.dll
+src/bin/Release/Raspberry.1.0.0.nupkg
+src/obj/Release/Raspberry.1.0.0.nuspec

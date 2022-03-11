@@ -2,6 +2,8 @@
 
 public abstract class EnvironmentBase
 {
+    public static EnvironmentPi4 Instance => new EnvironmentPi4();
+
     /// <summary>
     /// e.g.: /dev/gpiomem
     /// </summary>

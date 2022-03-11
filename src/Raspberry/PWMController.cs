@@ -3,7 +3,7 @@ using Timer = Linux.Timer;
 using System;
 using System.Threading;
 
-namespace Raspberry.Pi4;
+namespace Raspberry;
 
 public class PWMController { 
 

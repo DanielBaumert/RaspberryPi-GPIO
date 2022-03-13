@@ -6,11 +6,17 @@ GPIO controller lib for the bcm2711 (Raspberry PI 4)
 
 ## Ultrasonic Sensor HC-SR04
 ```cs
+using Raspberry;
+using Raspberry.Native;
+
+using Stopwatch = Linux.Native.Stopwatch;
+using Timer = Linux.Timer;
+
 const uint TR_GPIO = 11;
 const uint EC_GPIO = 8;
 
 Stopwatch stopwatch = new Stopwatch();
-using GpioController gpio = new GpioController();
+using GpioController gpio = new GpioController(EnvironmentBase.Instance);
 GpioOut tr = gpio.GetGpioAsOutput(TR_GPIO);
 GpioIn ec = gpio.GetGpioAsInput(EC_GPIO);
 
